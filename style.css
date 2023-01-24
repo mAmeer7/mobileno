@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.container{
+background-color: #fff;
+padding: 20px;
+width: 400px;
+text-align: center;
+border-radius: 10px;
+box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 500px){
+    .container{
+        background-color: #fff;
+padding: 20px;
+width: 320px;
+text-align: center;
+border-radius: 10px;
+box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    }
+}
+
+.header{
+    padding: 10px;
+}
+.input-box{
+    padding: 10px;
+}
+.button-box{
+    padding: 10px;
+}
+
+.text-box{
+    display: inline;
+    justify-content: space-evenly;
+    padding: 0px;
+    display: none;
+    
+}
+
+ .label-area{
+    display: inline;
+    font-weight: 700;
+    flex-direction: column;
+}
+.name-area{
+    padding-bottom: 10px;
+    
+}
+
+span{
+    padding:0 5px;
+}
+
+#btn{
+    cursor: pointer;
+    background-color: blueviolet;
+    border: none;
+    padding: .5em 1em;
+    color: white;
+    border-radius: 5px;
+}
+#btn:active{
+    background-color: rgb(107, 34, 176);
+}
+.nD-hide{
+    color: red;
+    display: none;
+    font-size: .8em;
+}
+.eI-hide{
+    color: red;
+    display: none;
+    font-size: .8em;
+}
+
+.show{
+    display: block;
+}
+.error-area{
+    padding-bottom: 5px;
+}
